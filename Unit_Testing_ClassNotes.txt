@@ -1,0 +1,108 @@
+Types of testing:--->
+
+	1. Unit Testing
+	2. Integration Testing
+	3. System Testing
+	4. User acceptance testing
+
+
+UnitTesting:-->
+		During unit testing programmer test each program using below techniques
+
+		1. Basicpath testing
+		2. Control structure testing
+		3. program technique testing
+		4. Mutation Testing
+
+
+	Basicpath Testing:-->
+		During this testing programmer execute each program more than two times
+		to cover all executable areas.
+
+		age=21
+		if age > 18
+		    print "Valid"
+		else
+		    print "Invalid"
+
+		=> First time to execute true condition to verify
+		=> Second time execute false condition to verify
+
+
+		age=21
+		if age > 18
+		   print "valid age"
+		if(age > 60)
+		   print "age exceded terms and conditions applied"
+		else
+		   print "Invalid age"	
+
+
+				1. Testwith valid age >18  and Lessthan 60
+				2. Test with invalid age <18
+				4. Test with range > 18  and > 60
+
+
+Coverage testing:-->
+
+	During this test programmer verify each every program input and outputs.
+	This process also called debugging progam.
+
+	What is debugging:-->
+		Programmer check every line of program is executig without
+		runtime erros.
+
+
+ Program technique testing:-->
+
+	During this test programmer check execution speed of program. If execution
+	speed is not resonable program make changes to imporve execution speed.
+
+
+	Starttime
+	     ProgramA
+	Total=EndTime-StartTime
+				
+	What exactly develpers do improve speed of program:--->
+
+		1. Use low memory variable to improve speed
+		2. Remove unwanted code 
+		3. Optimize program lines into shotter 
+
+
+
+ Mutation Testing:-->
+				
+	During this test programmer create more mutant 
+	programs and execute each mutant program with some changes
+	. After execution if mutant build performing
+	better than real build program the developer replace 
+	real program with mutant program. 
+
+	Incase mutant build failed programmer decleare that one 
+	as dead code.
+
+
+
+
+Integration Testing:-->
+
+	After completed unit testing,  programmer integrate all 
+	related programs and conduct below sub tests.
+
+		Top-Down Approach
+		Bottom-up Approach
+		Hybrid approach
+		System approach
+
+
+
+
+
+			
+
+			
+
+
+
+
