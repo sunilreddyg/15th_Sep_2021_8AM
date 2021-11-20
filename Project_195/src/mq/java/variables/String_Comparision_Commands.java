@@ -23,7 +23,7 @@ public class String_Comparision_Commands {
 		
 		
 		/*
-		 * Equqlignorecase:-->
+		 * Equalignorecase:-->
 		 * 			it verify equal comparision between two string 
 		 * 			by ignoring case sensitive
 		 */

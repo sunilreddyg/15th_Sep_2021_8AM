@@ -1,6 +1,7 @@
 package mq.java.variables;
 
-public class Get_Variables {
+public class Get_Variables
+{
 
 	public static void main(String[] args) 
 	{
@@ -20,6 +21,8 @@ public class Get_Variables {
 		
 		String myname=Variables.name;
 		System.out.println(myname);
+		
+		int ab1=100;
 	}
 
 }
