@@ -1,5 +1,6 @@
 package switch_commands.Window;
 
+import java.util.ArrayList;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -53,8 +54,7 @@ public class SwitchTo_To_Required_Window_with_PageTitle
 	    System.out.println("Current Focusexd window title is--> "+driver.getTitle());
 	    
 	    
-	    
-	    
+	 
 	    
 	    
 
