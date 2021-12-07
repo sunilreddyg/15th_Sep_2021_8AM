@@ -148,13 +148,11 @@ urlcontains:--->
 visibilityOfElementLocated:-->
 
 		An expectation to verify expected element visible at webpage	
-			
 Example:--> Manage Explicit wait until element visible at webpage.
 	WebdriverWait  wait=new WebDriverwait(driver,100);
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("x")));
 	wait.until(ExpectedConditions.visibilityOf(WebElemnet Element));
 =================================================================================
-
 InvisiblityofElementLocated:-->
 		An expectation to verify, Required element invisible at webpae
 
