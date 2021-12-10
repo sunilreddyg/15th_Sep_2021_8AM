@@ -27,7 +27,6 @@ public class ExplicitWait_TextPresented_As_Element_value {
 		driver.findElement(By.id("i0116")).sendKeys("9030222222");
 
 		
-
 		//Enable explicitwait on automation browser
 		try {
 			new WebDriverWait(driver, Duration.ofSeconds(30))
