@@ -7,6 +7,7 @@ public class Hexagon extends Shape
 	public void draw()
 	{
 		super.draw();
+		System.out.println(super.name);
 		System.out.println("Hexagon child class method");
 	}
 	

@@ -12,12 +12,14 @@ public class Circle extends Shape
 	public static void main(String[] args) 
 	{
 		
-		Shape shp=new Circle();
-		shp.draw();
+		Circle obj=new Circle();
+		obj.draw();
 		
-		Circle circle=new Circle();
-		circle.draw();
-
+		Shape ref=new Circle();
+		ref.draw();
+		
+		Shape obj1=new Shape();
+		obj1.draw();
 	}
 
 }

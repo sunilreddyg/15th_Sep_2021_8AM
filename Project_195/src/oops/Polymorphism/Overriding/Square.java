@@ -2,6 +2,7 @@ package oops.Polymorphism.Overriding;
 
 public class Square extends Shape
 {
+	
 	@Override
 	public void draw()
 	{
@@ -10,9 +11,9 @@ public class Square extends Shape
 
 	public static void main(String[] args) {
 		
-		Shape shp=new Square();
-		shp.draw();
-
+	
+		Shape obj=new Square();
+		obj.draw();
 	}
 
 }

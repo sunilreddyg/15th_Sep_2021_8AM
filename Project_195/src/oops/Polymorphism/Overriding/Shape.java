@@ -2,6 +2,8 @@ package oops.Polymorphism.Overriding;
 
 public class Shape
 {
+	
+	String name="MQ";
 
 	public void draw()
 	{
