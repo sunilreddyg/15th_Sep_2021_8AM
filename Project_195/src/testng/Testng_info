@@ -2,7 +2,7 @@
 
 TestNG----> Test next generation
 
-	Testng is a opensource thirdparty framework. It derived
+	Testng is a opensource thirdparty selenium framework. It derived
 	from junit and Nunit Framework.
 	
 	=> Testng support Test driven developement framework[TDD]
@@ -23,7 +23,7 @@ TestNg Advantages:--->
 		need to download from Eclipse marketplaces.
 
 
-TestNg installation:--->
+TestNg installation using market places:--->
 
 	TestNG is a plugin for eclipse
 
@@ -45,6 +45,18 @@ TestNg installation:--->
 
 	Note:--> After restart we can find testng plugin by rightclick on Src 
 		under your project...
+		
+	
+Installation using URL:-->
+
+	Install from update site
+	Select Help / Install New Software...
+	Enter the update site URL in "Work with:" field:
+	Update site for release: https://testng.org/testng-eclipse-update-site.
+	Make sure the check box next to URL is checked and click Next.
+	Eclipse will then guide you through the process.
+		
+		
 
 Add testng library files to project:--->
 		
