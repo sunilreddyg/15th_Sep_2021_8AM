@@ -1,0 +1,61 @@
+Jenkins:-->
+
+	The leading open source automation server, 
+	Jenkins provides hundreds of plugins to support building, 
+	deploying and automating any project. 
+
+
+URL:--> https://jenkins.io/download/
+            => Select Operating system as Windows.
+            => System asks to download zip formatfile
+            => Unzip file to backup drive [After unzip we can find .exe file]
+            => it is executable file use double click to start installation
+            => Follow installation until it ask secret password to enter
+            => Enter secret password and register for jenkins...
+
+
+Login to jenkins:-->
+
+	=> http://localhost:8080
+	=> Login with registered details...
+
+Set GlobalTool configurations:-->
+
+	navigations:-->
+		    => At jenkins homepage click on "Manage jenkins"
+		    => Then select "Global Configuration tools"
+		    =>  Setup MAVEN_HOME  and  JAVA_HOME
+		    =>  Click Save button.
+
+Install maven Integration plugin at jenkins:-->
+	
+		    => At jenkins homepage click on "Manage jenkins"
+		    => Then select "manage plugins"
+		    => Select  "Available" tab
+		    => Search for maven integration
+		    => Select chekcbox  for maven integration
+		    => Click download button..
+====================================================
+Creating Jenkins project:--.
+	
+	=>Click on "create new job" at jenkins homepage.
+	=> Enter project name and select maven project
+	=> Click ok button
+
+	
+	=> Select Build
+	=> Enter Root POM location
+	=> Enter goal as  "test"
+	=> Click save 
+	
+
+
+
+
+
+
+
+
+
+
+	
